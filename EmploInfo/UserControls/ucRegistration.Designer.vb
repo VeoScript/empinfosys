@@ -112,14 +112,14 @@ Partial Class ucRegistration
         '
         'btnEmployeeRegistration
         '
-        Me.btnEmployeeRegistration.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnEmployeeRegistration.BackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnEmployeeRegistration.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnEmployeeRegistration.FlatAppearance.BorderSize = 0
-        Me.btnEmployeeRegistration.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnEmployeeRegistration.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(172, Byte), Integer))
+        Me.btnEmployeeRegistration.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnEmployeeRegistration.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.btnEmployeeRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnEmployeeRegistration.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEmployeeRegistration.ForeColor = System.Drawing.Color.White
+        Me.btnEmployeeRegistration.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.btnEmployeeRegistration.Location = New System.Drawing.Point(72, 83)
         Me.btnEmployeeRegistration.Name = "btnEmployeeRegistration"
         Me.btnEmployeeRegistration.Size = New System.Drawing.Size(437, 36)
@@ -129,14 +129,14 @@ Partial Class ucRegistration
         '
         'btnAccountRegistration
         '
-        Me.btnAccountRegistration.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnAccountRegistration.BackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnAccountRegistration.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAccountRegistration.FlatAppearance.BorderSize = 0
-        Me.btnAccountRegistration.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnAccountRegistration.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(172, Byte), Integer))
+        Me.btnAccountRegistration.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnAccountRegistration.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.btnAccountRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAccountRegistration.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAccountRegistration.ForeColor = System.Drawing.Color.White
+        Me.btnAccountRegistration.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.btnAccountRegistration.Location = New System.Drawing.Point(509, 83)
         Me.btnAccountRegistration.Name = "btnAccountRegistration"
         Me.btnAccountRegistration.Size = New System.Drawing.Size(439, 36)

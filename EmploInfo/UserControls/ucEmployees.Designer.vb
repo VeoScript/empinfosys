@@ -72,14 +72,14 @@ Partial Class ucEmployees
         '
         'btnListEmployees
         '
-        Me.btnListEmployees.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnListEmployees.BackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnListEmployees.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnListEmployees.FlatAppearance.BorderSize = 0
-        Me.btnListEmployees.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnListEmployees.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(172, Byte), Integer))
+        Me.btnListEmployees.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnListEmployees.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.btnListEmployees.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnListEmployees.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnListEmployees.ForeColor = System.Drawing.Color.White
+        Me.btnListEmployees.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.btnListEmployees.Location = New System.Drawing.Point(507, 83)
         Me.btnListEmployees.Name = "btnListEmployees"
         Me.btnListEmployees.Size = New System.Drawing.Size(439, 36)
@@ -89,14 +89,14 @@ Partial Class ucEmployees
         '
         'btnAddEmployee
         '
-        Me.btnAddEmployee.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnAddEmployee.BackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.btnAddEmployee.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAddEmployee.FlatAppearance.BorderSize = 0
-        Me.btnAddEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnAddEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(172, Byte), Integer))
+        Me.btnAddEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.btnAddEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.btnAddEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAddEmployee.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAddEmployee.ForeColor = System.Drawing.Color.White
+        Me.btnAddEmployee.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.btnAddEmployee.Location = New System.Drawing.Point(70, 83)
         Me.btnAddEmployee.Name = "btnAddEmployee"
         Me.btnAddEmployee.Size = New System.Drawing.Size(437, 36)

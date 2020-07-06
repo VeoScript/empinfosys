@@ -19,3 +19,5 @@ C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucEmployees.resou
 C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucListEmployee.resources
 C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucRecords.resources
 C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucAccountInfo.resources
+C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucYourAccount.resources
+C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucAccountsRegistered.resources

@@ -46,13 +46,13 @@ Partial Class DashBoard
         Me.copyrights = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.panelUserControlContainer = New System.Windows.Forms.Panel()
-        Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
-        Me.BunifuDragControl2 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
         Me.UcDashboard1 = New EmploInfo.ucDashboard()
         Me.UcEmployees1 = New EmploInfo.ucEmployees()
         Me.UcRegistration1 = New EmploInfo.ucRegistration()
         Me.UcRecords1 = New EmploInfo.ucRecords()
         Me.UcAccountInfo1 = New EmploInfo.ucAccountInfo()
+        Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
+        Me.BunifuDragControl2 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
         Me.panelMenu.SuspendLayout()
         Me.panelTopbar.SuspendLayout()
         CType(Me.btnMinimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -131,7 +131,7 @@ Partial Class DashBoard
         Me.btnAccountInfo.Name = "btnAccountInfo"
         Me.btnAccountInfo.Size = New System.Drawing.Size(255, 36)
         Me.btnAccountInfo.TabIndex = 3
-        Me.btnAccountInfo.Text = "     Account Info"
+        Me.btnAccountInfo.Text = "     Account Information"
         Me.btnAccountInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ToolTip1.SetToolTip(Me.btnAccountInfo, "Your Account Information.")
         Me.btnAccountInfo.UseVisualStyleBackColor = False
@@ -376,20 +376,6 @@ Partial Class DashBoard
         Me.panelUserControlContainer.Size = New System.Drawing.Size(1016, 620)
         Me.panelUserControlContainer.TabIndex = 3
         '
-        'BunifuDragControl1
-        '
-        Me.BunifuDragControl1.Fixed = True
-        Me.BunifuDragControl1.Horizontal = True
-        Me.BunifuDragControl1.TargetControl = Me.panelMenu
-        Me.BunifuDragControl1.Vertical = True
-        '
-        'BunifuDragControl2
-        '
-        Me.BunifuDragControl2.Fixed = True
-        Me.BunifuDragControl2.Horizontal = True
-        Me.BunifuDragControl2.TargetControl = Me.panelTopbar
-        Me.BunifuDragControl2.Vertical = True
-        '
         'UcDashboard1
         '
         Me.UcDashboard1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -437,6 +423,20 @@ Partial Class DashBoard
         Me.UcAccountInfo1.Size = New System.Drawing.Size(1016, 620)
         Me.UcAccountInfo1.TabIndex = 4
         Me.UcAccountInfo1.Visible = False
+        '
+        'BunifuDragControl1
+        '
+        Me.BunifuDragControl1.Fixed = True
+        Me.BunifuDragControl1.Horizontal = True
+        Me.BunifuDragControl1.TargetControl = Me.panelMenu
+        Me.BunifuDragControl1.Vertical = True
+        '
+        'BunifuDragControl2
+        '
+        Me.BunifuDragControl2.Fixed = True
+        Me.BunifuDragControl2.Horizontal = True
+        Me.BunifuDragControl2.TargetControl = Me.panelTopbar
+        Me.BunifuDragControl2.Vertical = True
         '
         'DashBoard
         '

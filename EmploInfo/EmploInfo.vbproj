@@ -77,22 +77,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountInfoUserControls\ucAccountsRegistered.Designer.vb">
+      <DependentUpon>ucAccountsRegistered.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountInfoUserControls\ucAccountsRegistered.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountInfoUserControls\ucYourAccount.Designer.vb">
+      <DependentUpon>ucYourAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountInfoUserControls\ucYourAccount.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="DashBoard.Designer.vb">
       <DependentUpon>DashBoard.vb</DependentUpon>
     </Compile>
     <Compile Include="DashBoard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employees User Controls\ucAddEmployee.Designer.vb">
+    <Compile Include="EmployeesUserControls\ucAddEmployee.Designer.vb">
       <DependentUpon>ucAddEmployee.vb</DependentUpon>
     </Compile>
-    <Compile Include="Employees User Controls\ucAddEmployee.vb">
+    <Compile Include="EmployeesUserControls\ucAddEmployee.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Employees User Controls\ucListEmployee.Designer.vb">
+    <Compile Include="EmployeesUserControls\ucListEmployee.Designer.vb">
       <DependentUpon>ucListEmployee.vb</DependentUpon>
     </Compile>
-    <Compile Include="Employees User Controls\ucListEmployee.vb">
+    <Compile Include="EmployeesUserControls\ucListEmployee.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Home.vb">
@@ -117,16 +129,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Registration User Controls\ucAccountRegistration.Designer.vb">
+    <Compile Include="RegistrationUserControls\ucAccountRegistration.Designer.vb">
       <DependentUpon>ucAccountRegistration.vb</DependentUpon>
     </Compile>
-    <Compile Include="Registration User Controls\ucAccountRegistration.vb">
+    <Compile Include="RegistrationUserControls\ucAccountRegistration.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Registration User Controls\ucRegistrationEmployee.Designer.vb">
+    <Compile Include="RegistrationUserControls\ucRegistrationEmployee.Designer.vb">
       <DependentUpon>ucRegistrationEmployee.vb</DependentUpon>
     </Compile>
-    <Compile Include="Registration User Controls\ucRegistrationEmployee.vb">
+    <Compile Include="RegistrationUserControls\ucRegistrationEmployee.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\ucAccountInfo.Designer.vb">
@@ -161,13 +173,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AccountInfoUserControls\ucAccountsRegistered.resx">
+      <DependentUpon>ucAccountsRegistered.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountInfoUserControls\ucYourAccount.resx">
+      <DependentUpon>ucYourAccount.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DashBoard.resx">
       <DependentUpon>DashBoard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employees User Controls\ucAddEmployee.resx">
+    <EmbeddedResource Include="EmployeesUserControls\ucAddEmployee.resx">
       <DependentUpon>ucAddEmployee.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employees User Controls\ucListEmployee.resx">
+    <EmbeddedResource Include="EmployeesUserControls\ucListEmployee.resx">
       <DependentUpon>ucListEmployee.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
@@ -179,10 +197,10 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registration User Controls\ucAccountRegistration.resx">
+    <EmbeddedResource Include="RegistrationUserControls\ucAccountRegistration.resx">
       <DependentUpon>ucAccountRegistration.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registration User Controls\ucRegistrationEmployee.resx">
+    <EmbeddedResource Include="RegistrationUserControls\ucRegistrationEmployee.resx">
       <DependentUpon>ucRegistrationEmployee.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ucAccountInfo.resx">

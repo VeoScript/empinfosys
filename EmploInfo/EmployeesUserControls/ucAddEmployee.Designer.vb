@@ -43,8 +43,14 @@ Partial Class ucAddEmployee
         Me.Label9 = New System.Windows.Forms.Label()
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
-        Me.BunifuSeparator1 = New Bunifu.Framework.UI.BunifuSeparator()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtIdNumber = New Bunifu.Framework.UI.BunifuMetroTextbox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.BunifuMetroTextbox1 = New Bunifu.Framework.UI.BunifuMetroTextbox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label2
@@ -52,7 +58,7 @@ Partial Class ucAddEmployee
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Righteous", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(16, 43)
+        Me.Label2.Location = New System.Drawing.Point(397, 97)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(212, 24)
         Me.Label2.TabIndex = 44
@@ -63,7 +69,7 @@ Partial Class ucAddEmployee
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(135, 286)
+        Me.Label4.Location = New System.Drawing.Point(27, 302)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 16)
         Me.Label4.TabIndex = 42
@@ -74,7 +80,7 @@ Partial Class ucAddEmployee
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(134, 230)
+        Me.Label3.Location = New System.Drawing.Point(25, 245)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 16)
         Me.Label3.TabIndex = 36
@@ -85,7 +91,7 @@ Partial Class ucAddEmployee
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(8, 10)
+        Me.Label1.Location = New System.Drawing.Point(209, 10)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(145, 16)
         Me.Label1.TabIndex = 33
@@ -96,7 +102,7 @@ Partial Class ucAddEmployee
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(342, 92)
+        Me.Label5.Location = New System.Drawing.Point(823, 9)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(65, 16)
         Me.Label5.TabIndex = 32
@@ -113,10 +119,10 @@ Partial Class ucAddEmployee
         Me.txtMiddlename.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMiddlename.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtMiddlename.isPassword = False
-        Me.txtMiddlename.Location = New System.Drawing.Point(136, 305)
+        Me.txtMiddlename.Location = New System.Drawing.Point(26, 320)
         Me.txtMiddlename.Margin = New System.Windows.Forms.Padding(4)
         Me.txtMiddlename.Name = "txtMiddlename"
-        Me.txtMiddlename.Size = New System.Drawing.Size(302, 34)
+        Me.txtMiddlename.Size = New System.Drawing.Size(319, 34)
         Me.txtMiddlename.TabIndex = 23
         Me.txtMiddlename.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -131,10 +137,10 @@ Partial Class ucAddEmployee
         Me.txtFirstname.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFirstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtFirstname.isPassword = False
-        Me.txtFirstname.Location = New System.Drawing.Point(135, 248)
+        Me.txtFirstname.Location = New System.Drawing.Point(26, 263)
         Me.txtFirstname.Margin = New System.Windows.Forms.Padding(4)
         Me.txtFirstname.Name = "txtFirstname"
-        Me.txtFirstname.Size = New System.Drawing.Size(302, 34)
+        Me.txtFirstname.Size = New System.Drawing.Size(319, 34)
         Me.txtFirstname.TabIndex = 22
         Me.txtFirstname.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -148,10 +154,10 @@ Partial Class ucAddEmployee
         Me.txtEmployeeNo.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEmployeeNo.ForeColor = System.Drawing.Color.White
         Me.txtEmployeeNo.isPassword = False
-        Me.txtEmployeeNo.Location = New System.Drawing.Point(161, 1)
+        Me.txtEmployeeNo.Location = New System.Drawing.Point(374, 1)
         Me.txtEmployeeNo.Margin = New System.Windows.Forms.Padding(4)
         Me.txtEmployeeNo.Name = "txtEmployeeNo"
-        Me.txtEmployeeNo.Size = New System.Drawing.Size(177, 34)
+        Me.txtEmployeeNo.Size = New System.Drawing.Size(443, 34)
         Me.txtEmployeeNo.TabIndex = 20
         Me.txtEmployeeNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -166,10 +172,10 @@ Partial Class ucAddEmployee
         Me.txtDateHired.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDateHired.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtDateHired.isPassword = False
-        Me.txtDateHired.Location = New System.Drawing.Point(334, 81)
+        Me.txtDateHired.Location = New System.Drawing.Point(810, -1)
         Me.txtDateHired.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDateHired.Name = "txtDateHired"
-        Me.txtDateHired.Size = New System.Drawing.Size(244, 38)
+        Me.txtDateHired.Size = New System.Drawing.Size(206, 38)
         Me.txtDateHired.TabIndex = 21
         Me.txtDateHired.Text = "9/13/2020"
         Me.txtDateHired.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -180,9 +186,9 @@ Partial Class ucAddEmployee
         Me.Panel1.Controls.Add(Me.BunifuSeparator2)
         Me.Panel1.Controls.Add(Me.txtEmployeeNo)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(-1, 82)
+        Me.Panel1.Location = New System.Drawing.Point(-1, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(338, 36)
+        Me.Panel1.Size = New System.Drawing.Size(818, 36)
         Me.Panel1.TabIndex = 49
         '
         'BunifuSeparator2
@@ -190,9 +196,9 @@ Partial Class ucAddEmployee
         Me.BunifuSeparator2.BackColor = System.Drawing.Color.Transparent
         Me.BunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.BunifuSeparator2.LineThickness = 3
-        Me.BunifuSeparator2.Location = New System.Drawing.Point(153, 0)
+        Me.BunifuSeparator2.Location = New System.Drawing.Point(367, -1)
         Me.BunifuSeparator2.Name = "BunifuSeparator2"
-        Me.BunifuSeparator2.Size = New System.Drawing.Size(10, 36)
+        Me.BunifuSeparator2.Size = New System.Drawing.Size(10, 37)
         Me.BunifuSeparator2.TabIndex = 50
         Me.BunifuSeparator2.Transparency = 255
         Me.BunifuSeparator2.Vertical = True
@@ -208,10 +214,10 @@ Partial Class ucAddEmployee
         Me.txtLastname.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtLastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtLastname.isPassword = False
-        Me.txtLastname.Location = New System.Drawing.Point(135, 192)
+        Me.txtLastname.Location = New System.Drawing.Point(26, 205)
         Me.txtLastname.Margin = New System.Windows.Forms.Padding(4)
         Me.txtLastname.Name = "txtLastname"
-        Me.txtLastname.Size = New System.Drawing.Size(302, 34)
+        Me.txtLastname.Size = New System.Drawing.Size(319, 34)
         Me.txtLastname.TabIndex = 22
         Me.txtLastname.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -220,7 +226,7 @@ Partial Class ucAddEmployee
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(134, 174)
+        Me.Label6.Location = New System.Drawing.Point(25, 187)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(64, 16)
         Me.Label6.TabIndex = 36
@@ -235,13 +241,13 @@ Partial Class ucAddEmployee
         Me.cmbEmploymentStatus.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbEmploymentStatus.ForeColor = System.Drawing.Color.White
         Me.cmbEmploymentStatus.Items = New String() {"", "PROBATIONARY", "REGULAR/UNION", "REGULAR/NON-UNION", "AGENCY"}
-        Me.cmbEmploymentStatus.Location = New System.Drawing.Point(445, 193)
+        Me.cmbEmploymentStatus.Location = New System.Drawing.Point(400, 182)
         Me.cmbEmploymentStatus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbEmploymentStatus.Name = "cmbEmploymentStatus"
         Me.cmbEmploymentStatus.NomalColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
         Me.cmbEmploymentStatus.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.cmbEmploymentStatus.selectedIndex = -1
-        Me.cmbEmploymentStatus.Size = New System.Drawing.Size(295, 33)
+        Me.cmbEmploymentStatus.Size = New System.Drawing.Size(398, 33)
         Me.cmbEmploymentStatus.TabIndex = 50
         '
         'Label7
@@ -249,7 +255,7 @@ Partial Class ucAddEmployee
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(440, 173)
+        Me.Label7.Location = New System.Drawing.Point(398, 162)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(112, 16)
         Me.Label7.TabIndex = 51
@@ -260,7 +266,7 @@ Partial Class ucAddEmployee
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(441, 229)
+        Me.Label8.Location = New System.Drawing.Point(398, 224)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(53, 16)
         Me.Label8.TabIndex = 51
@@ -276,10 +282,10 @@ Partial Class ucAddEmployee
         Me.txtPosition.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPosition.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtPosition.isPassword = False
-        Me.txtPosition.Location = New System.Drawing.Point(443, 248)
+        Me.txtPosition.Location = New System.Drawing.Point(398, 243)
         Me.txtPosition.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPosition.Name = "txtPosition"
-        Me.txtPosition.Size = New System.Drawing.Size(297, 34)
+        Me.txtPosition.Size = New System.Drawing.Size(397, 34)
         Me.txtPosition.TabIndex = 22
         Me.txtPosition.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -293,10 +299,10 @@ Partial Class ucAddEmployee
         Me.txtSalary.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSalary.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtSalary.isPassword = False
-        Me.txtSalary.Location = New System.Drawing.Point(443, 305)
+        Me.txtSalary.Location = New System.Drawing.Point(398, 302)
         Me.txtSalary.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSalary.Name = "txtSalary"
-        Me.txtSalary.Size = New System.Drawing.Size(297, 34)
+        Me.txtSalary.Size = New System.Drawing.Size(397, 34)
         Me.txtSalary.TabIndex = 22
         Me.txtSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
@@ -305,7 +311,7 @@ Partial Class ucAddEmployee
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(441, 286)
+        Me.Label9.Location = New System.Drawing.Point(396, 283)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(80, 16)
         Me.Label9.TabIndex = 51
@@ -321,11 +327,11 @@ Partial Class ucAddEmployee
         Me.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAdd.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAdd.ForeColor = System.Drawing.Color.White
-        Me.btnAdd.Location = New System.Drawing.Point(576, 82)
+        Me.btnAdd.Location = New System.Drawing.Point(400, 354)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(162, 36)
+        Me.btnAdd.Size = New System.Drawing.Size(76, 30)
         Me.btnAdd.TabIndex = 47
-        Me.btnAdd.Text = "ADD"
+        Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
         '
         'btnCancel
@@ -338,30 +344,107 @@ Partial Class ucAddEmployee
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.Color.White
-        Me.btnCancel.Location = New System.Drawing.Point(741, 82)
+        Me.btnCancel.Location = New System.Drawing.Point(477, 354)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(135, 36)
+        Me.btnCancel.Size = New System.Drawing.Size(73, 30)
         Me.btnCancel.TabIndex = 47
-        Me.btnCancel.Text = "CANCEL"
+        Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = False
         '
-        'BunifuSeparator1
+        'Panel2
         '
-        Me.BunifuSeparator1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.BunifuSeparator1.LineThickness = 3
-        Me.BunifuSeparator1.Location = New System.Drawing.Point(734, 82)
-        Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(10, 36)
-        Me.BunifuSeparator1.TabIndex = 50
-        Me.BunifuSeparator1.Transparency = 255
-        Me.BunifuSeparator1.Vertical = True
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(234, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.BunifuMetroTextbox1)
+        Me.Panel2.Controls.Add(Me.txtIdNumber)
+        Me.Panel2.Controls.Add(Me.Label11)
+        Me.Panel2.Controls.Add(Me.txtLastname)
+        Me.Panel2.Controls.Add(Me.Label10)
+        Me.Panel2.Controls.Add(Me.Label6)
+        Me.Panel2.Controls.Add(Me.txtFirstname)
+        Me.Panel2.Controls.Add(Me.Label3)
+        Me.Panel2.Controls.Add(Me.Label12)
+        Me.Panel2.Controls.Add(Me.txtMiddlename)
+        Me.Panel2.Controls.Add(Me.Label4)
+        Me.Panel2.Location = New System.Drawing.Point(0, 36)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(373, 546)
+        Me.Panel2.TabIndex = 52
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.Label10.Location = New System.Drawing.Point(27, 130)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(66, 16)
+        Me.Label10.TabIndex = 36
+        Me.Label10.Text = "ID Number"
+        '
+        'txtIdNumber
+        '
+        Me.txtIdNumber.BorderColorFocused = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.txtIdNumber.BorderColorIdle = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.txtIdNumber.BorderColorMouseHover = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.txtIdNumber.BorderThickness = 2
+        Me.txtIdNumber.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtIdNumber.Enabled = False
+        Me.txtIdNumber.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIdNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.txtIdNumber.isPassword = False
+        Me.txtIdNumber.Location = New System.Drawing.Point(26, 148)
+        Me.txtIdNumber.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtIdNumber.Name = "txtIdNumber"
+        Me.txtIdNumber.Size = New System.Drawing.Size(179, 34)
+        Me.txtIdNumber.TabIndex = 22
+        Me.txtIdNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.Label11.Location = New System.Drawing.Point(209, 130)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(47, 16)
+        Me.Label11.TabIndex = 36
+        Me.Label11.Text = "Gender"
+        '
+        'BunifuMetroTextbox1
+        '
+        Me.BunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.BunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.BunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.BunifuMetroTextbox1.BorderThickness = 2
+        Me.BunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.BunifuMetroTextbox1.Enabled = False
+        Me.BunifuMetroTextbox1.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.BunifuMetroTextbox1.isPassword = False
+        Me.BunifuMetroTextbox1.Location = New System.Drawing.Point(208, 148)
+        Me.BunifuMetroTextbox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.BunifuMetroTextbox1.Name = "BunifuMetroTextbox1"
+        Me.BunifuMetroTextbox1.Size = New System.Drawing.Size(137, 34)
+        Me.BunifuMetroTextbox1.TabIndex = 22
+        Me.BunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Righteous", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.Label12.Location = New System.Drawing.Point(26, 61)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(171, 24)
+        Me.Label12.TabIndex = 44
+        Me.Label12.Text = "SEARCH RESULT"
         '
         'ucAddEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.cmbEmploymentStatus)
@@ -370,21 +453,16 @@ Partial Class ucAddEmployee
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.txtMiddlename)
-        Me.Controls.Add(Me.txtLastname)
         Me.Controls.Add(Me.txtSalary)
         Me.Controls.Add(Me.txtPosition)
-        Me.Controls.Add(Me.txtFirstname)
         Me.Controls.Add(Me.txtDateHired)
-        Me.Controls.Add(Me.BunifuSeparator1)
         Me.Name = "ucAddEmployee"
-        Me.Size = New System.Drawing.Size(876, 436)
+        Me.Size = New System.Drawing.Size(1016, 582)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -410,6 +488,11 @@ Partial Class ucAddEmployee
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents btnAdd As System.Windows.Forms.Button
     Friend WithEvents btnCancel As System.Windows.Forms.Button
-    Friend WithEvents BunifuSeparator1 As Bunifu.Framework.UI.BunifuSeparator
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents BunifuMetroTextbox1 As Bunifu.Framework.UI.BunifuMetroTextbox
+    Friend WithEvents txtIdNumber As Bunifu.Framework.UI.BunifuMetroTextbox
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 
 End Class

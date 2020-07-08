@@ -67,7 +67,7 @@ Partial Class ucRegistrationEmployee
         Me.txtLastname.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtLastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtLastname.isPassword = False
-        Me.txtLastname.Location = New System.Drawing.Point(26, 175)
+        Me.txtLastname.Location = New System.Drawing.Point(97, 230)
         Me.txtLastname.Margin = New System.Windows.Forms.Padding(4)
         Me.txtLastname.Name = "txtLastname"
         Me.txtLastname.Size = New System.Drawing.Size(226, 34)
@@ -79,7 +79,7 @@ Partial Class ucRegistrationEmployee
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(25, 157)
+        Me.Label5.Location = New System.Drawing.Point(96, 212)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(64, 16)
         Me.Label5.TabIndex = 12
@@ -95,7 +95,7 @@ Partial Class ucRegistrationEmployee
         Me.txtFirstname.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFirstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtFirstname.isPassword = False
-        Me.txtFirstname.Location = New System.Drawing.Point(26, 234)
+        Me.txtFirstname.Location = New System.Drawing.Point(97, 289)
         Me.txtFirstname.Margin = New System.Windows.Forms.Padding(4)
         Me.txtFirstname.Name = "txtFirstname"
         Me.txtFirstname.Size = New System.Drawing.Size(226, 34)
@@ -107,7 +107,7 @@ Partial Class ucRegistrationEmployee
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(25, 216)
+        Me.Label3.Location = New System.Drawing.Point(96, 271)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 16)
         Me.Label3.TabIndex = 12
@@ -123,7 +123,7 @@ Partial Class ucRegistrationEmployee
         Me.txtMiddlename.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMiddlename.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtMiddlename.isPassword = False
-        Me.txtMiddlename.Location = New System.Drawing.Point(27, 291)
+        Me.txtMiddlename.Location = New System.Drawing.Point(98, 346)
         Me.txtMiddlename.Margin = New System.Windows.Forms.Padding(4)
         Me.txtMiddlename.Name = "txtMiddlename"
         Me.txtMiddlename.Size = New System.Drawing.Size(226, 34)
@@ -135,7 +135,7 @@ Partial Class ucRegistrationEmployee
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(26, 272)
+        Me.Label4.Location = New System.Drawing.Point(97, 327)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 16)
         Me.Label4.TabIndex = 12
@@ -151,7 +151,7 @@ Partial Class ucRegistrationEmployee
         Me.txtEmployeeNo.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEmployeeNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtEmployeeNo.isPassword = False
-        Me.txtEmployeeNo.Location = New System.Drawing.Point(26, 118)
+        Me.txtEmployeeNo.Location = New System.Drawing.Point(97, 173)
         Me.txtEmployeeNo.Margin = New System.Windows.Forms.Padding(4)
         Me.txtEmployeeNo.Name = "txtEmployeeNo"
         Me.txtEmployeeNo.Size = New System.Drawing.Size(226, 34)
@@ -163,7 +163,7 @@ Partial Class ucRegistrationEmployee
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(25, 101)
+        Me.Label1.Location = New System.Drawing.Point(96, 156)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(106, 16)
         Me.Label1.TabIndex = 12
@@ -174,7 +174,7 @@ Partial Class ucRegistrationEmployee
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Righteous", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(19, 34)
+        Me.Label2.Location = New System.Drawing.Point(90, 89)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(268, 24)
         Me.Label2.TabIndex = 14
@@ -190,7 +190,7 @@ Partial Class ucRegistrationEmployee
         Me.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegister.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.ForeColor = System.Drawing.Color.White
-        Me.btnRegister.Location = New System.Drawing.Point(139, 337)
+        Me.btnRegister.Location = New System.Drawing.Point(100, 389)
         Me.btnRegister.Name = "btnRegister"
         Me.btnRegister.Size = New System.Drawing.Size(114, 30)
         Me.btnRegister.TabIndex = 16
@@ -207,7 +207,7 @@ Partial Class ucRegistrationEmployee
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.Color.White
-        Me.btnCancel.Location = New System.Drawing.Point(29, 337)
+        Me.btnCancel.Location = New System.Drawing.Point(215, 389)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(109, 30)
         Me.btnCancel.TabIndex = 17
@@ -223,7 +223,7 @@ Partial Class ucRegistrationEmployee
         Me.cmbGender.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbGender.ForeColor = System.Drawing.Color.White
         Me.cmbGender.Items = New String() {"", "MALE", "FEMALE"}
-        Me.cmbGender.Location = New System.Drawing.Point(252, 119)
+        Me.cmbGender.Location = New System.Drawing.Point(323, 174)
         Me.cmbGender.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbGender.Name = "cmbGender"
         Me.cmbGender.NomalColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
@@ -237,7 +237,7 @@ Partial Class ucRegistrationEmployee
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(251, 98)
+        Me.Label7.Location = New System.Drawing.Point(322, 153)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(47, 16)
         Me.Label7.TabIndex = 12
@@ -248,7 +248,7 @@ Partial Class ucRegistrationEmployee
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(361, 98)
+        Me.Label8.Location = New System.Drawing.Point(432, 153)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(81, 16)
         Me.Label8.TabIndex = 12
@@ -263,7 +263,7 @@ Partial Class ucRegistrationEmployee
         Me.cmdMaritalStatus.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdMaritalStatus.ForeColor = System.Drawing.Color.White
         Me.cmdMaritalStatus.Items = New String() {"", "SINGLE", "MARRIED", "WIDOW"}
-        Me.cmdMaritalStatus.Location = New System.Drawing.Point(356, 119)
+        Me.cmdMaritalStatus.Location = New System.Drawing.Point(427, 174)
         Me.cmdMaritalStatus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmdMaritalStatus.Name = "cmdMaritalStatus"
         Me.cmdMaritalStatus.NomalColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
@@ -282,7 +282,7 @@ Partial Class ucRegistrationEmployee
         Me.txtNoDependents.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNoDependents.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtNoDependents.isPassword = False
-        Me.txtNoDependents.Location = New System.Drawing.Point(430, 175)
+        Me.txtNoDependents.Location = New System.Drawing.Point(501, 230)
         Me.txtNoDependents.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNoDependents.Name = "txtNoDependents"
         Me.txtNoDependents.Size = New System.Drawing.Size(155, 34)
@@ -294,7 +294,7 @@ Partial Class ucRegistrationEmployee
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(428, 157)
+        Me.Label9.Location = New System.Drawing.Point(499, 212)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(109, 16)
         Me.Label9.TabIndex = 12
@@ -305,7 +305,7 @@ Partial Class ucRegistrationEmployee
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(474, 98)
+        Me.Label6.Location = New System.Drawing.Point(545, 153)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(62, 16)
         Me.Label6.TabIndex = 19
@@ -321,7 +321,7 @@ Partial Class ucRegistrationEmployee
         Me.txtBirthdate.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBirthdate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtBirthdate.isPassword = False
-        Me.txtBirthdate.Location = New System.Drawing.Point(475, 118)
+        Me.txtBirthdate.Location = New System.Drawing.Point(546, 173)
         Me.txtBirthdate.Margin = New System.Windows.Forms.Padding(4)
         Me.txtBirthdate.Name = "txtBirthdate"
         Me.txtBirthdate.Size = New System.Drawing.Size(110, 34)
@@ -338,7 +338,7 @@ Partial Class ucRegistrationEmployee
         Me.txtHomeAddress.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtHomeAddress.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtHomeAddress.isPassword = False
-        Me.txtHomeAddress.Location = New System.Drawing.Point(252, 291)
+        Me.txtHomeAddress.Location = New System.Drawing.Point(323, 346)
         Me.txtHomeAddress.Margin = New System.Windows.Forms.Padding(4)
         Me.txtHomeAddress.Name = "txtHomeAddress"
         Me.txtHomeAddress.Size = New System.Drawing.Size(334, 34)
@@ -350,7 +350,7 @@ Partial Class ucRegistrationEmployee
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(251, 271)
+        Me.Label10.Location = New System.Drawing.Point(322, 326)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(88, 16)
         Me.Label10.TabIndex = 19
@@ -366,7 +366,7 @@ Partial Class ucRegistrationEmployee
         Me.txtEmailAddress.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEmailAddress.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtEmailAddress.isPassword = False
-        Me.txtEmailAddress.Location = New System.Drawing.Point(251, 234)
+        Me.txtEmailAddress.Location = New System.Drawing.Point(322, 289)
         Me.txtEmailAddress.Margin = New System.Windows.Forms.Padding(4)
         Me.txtEmailAddress.Name = "txtEmailAddress"
         Me.txtEmailAddress.Size = New System.Drawing.Size(335, 34)
@@ -378,7 +378,7 @@ Partial Class ucRegistrationEmployee
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(251, 214)
+        Me.Label11.Location = New System.Drawing.Point(322, 269)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(85, 16)
         Me.Label11.TabIndex = 19
@@ -394,7 +394,7 @@ Partial Class ucRegistrationEmployee
         Me.txtContactNo.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtContactNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtContactNo.isPassword = False
-        Me.txtContactNo.Location = New System.Drawing.Point(251, 175)
+        Me.txtContactNo.Location = New System.Drawing.Point(322, 230)
         Me.txtContactNo.Margin = New System.Windows.Forms.Padding(4)
         Me.txtContactNo.Name = "txtContactNo"
         Me.txtContactNo.Size = New System.Drawing.Size(180, 34)
@@ -406,7 +406,7 @@ Partial Class ucRegistrationEmployee
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(250, 155)
+        Me.Label12.Location = New System.Drawing.Point(321, 210)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(172, 16)
         Me.Label12.TabIndex = 19
@@ -422,7 +422,7 @@ Partial Class ucRegistrationEmployee
         Me.txtPhilhealth.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPhilhealth.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtPhilhealth.isPassword = False
-        Me.txtPhilhealth.Location = New System.Drawing.Point(584, 118)
+        Me.txtPhilhealth.Location = New System.Drawing.Point(655, 173)
         Me.txtPhilhealth.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPhilhealth.Name = "txtPhilhealth"
         Me.txtPhilhealth.Size = New System.Drawing.Size(269, 34)
@@ -434,7 +434,7 @@ Partial Class ucRegistrationEmployee
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label13.Location = New System.Drawing.Point(584, 99)
+        Me.Label13.Location = New System.Drawing.Point(655, 154)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(64, 16)
         Me.Label13.TabIndex = 12
@@ -450,7 +450,7 @@ Partial Class ucRegistrationEmployee
         Me.txtSSS.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSSS.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtSSS.isPassword = False
-        Me.txtSSS.Location = New System.Drawing.Point(584, 175)
+        Me.txtSSS.Location = New System.Drawing.Point(655, 230)
         Me.txtSSS.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSSS.Name = "txtSSS"
         Me.txtSSS.Size = New System.Drawing.Size(269, 34)
@@ -462,7 +462,7 @@ Partial Class ucRegistrationEmployee
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label14.Location = New System.Drawing.Point(585, 156)
+        Me.Label14.Location = New System.Drawing.Point(656, 211)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(29, 16)
         Me.Label14.TabIndex = 12
@@ -478,7 +478,7 @@ Partial Class ucRegistrationEmployee
         Me.txtPagIbig.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPagIbig.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtPagIbig.isPassword = False
-        Me.txtPagIbig.Location = New System.Drawing.Point(585, 234)
+        Me.txtPagIbig.Location = New System.Drawing.Point(656, 289)
         Me.txtPagIbig.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPagIbig.Name = "txtPagIbig"
         Me.txtPagIbig.Size = New System.Drawing.Size(269, 34)
@@ -490,7 +490,7 @@ Partial Class ucRegistrationEmployee
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(586, 215)
+        Me.Label15.Location = New System.Drawing.Point(657, 270)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(54, 16)
         Me.Label15.TabIndex = 12
@@ -506,7 +506,7 @@ Partial Class ucRegistrationEmployee
         Me.txtTIN.Font = New System.Drawing.Font("Nunito", 9.749999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTIN.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.txtTIN.isPassword = False
-        Me.txtTIN.Location = New System.Drawing.Point(585, 291)
+        Me.txtTIN.Location = New System.Drawing.Point(656, 346)
         Me.txtTIN.Margin = New System.Windows.Forms.Padding(4)
         Me.txtTIN.Name = "txtTIN"
         Me.txtTIN.Size = New System.Drawing.Size(269, 34)
@@ -518,7 +518,7 @@ Partial Class ucRegistrationEmployee
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.Label16.Location = New System.Drawing.Point(587, 272)
+        Me.Label16.Location = New System.Drawing.Point(658, 327)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(27, 16)
         Me.Label16.TabIndex = 12
@@ -563,7 +563,7 @@ Partial Class ucRegistrationEmployee
         Me.Controls.Add(Me.txtEmployeeNo)
         Me.Controls.Add(Me.txtLastname)
         Me.Name = "ucRegistrationEmployee"
-        Me.Size = New System.Drawing.Size(876, 436)
+        Me.Size = New System.Drawing.Size(1016, 581)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

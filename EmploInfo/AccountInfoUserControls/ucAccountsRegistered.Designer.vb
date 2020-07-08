@@ -27,18 +27,14 @@ Partial Class ucAccountsRegistered
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.dgListEmployees = New Bunifu.Framework.UI.BunifuCustomDataGrid()
-        Me.EmployeeNo = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.LastName = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.Firstname = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.MiddleName = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.Position = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.EmployementStatus = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.DateHired = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.BunifuSeparator2 = New Bunifu.Framework.UI.BunifuSeparator()
         Me.txtSearch = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.AccountName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Position = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Username = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
         CType(Me.dgListEmployees, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
@@ -49,9 +45,9 @@ Partial Class ucAccountsRegistered
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.dgListEmployees)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 81)
+        Me.Panel1.Location = New System.Drawing.Point(0, 75)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(876, 355)
+        Me.Panel1.Size = New System.Drawing.Size(1016, 503)
         Me.Panel1.TabIndex = 52
         '
         'Panel2
@@ -60,7 +56,7 @@ Partial Class ucAccountsRegistered
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(876, 10)
+        Me.Panel2.Size = New System.Drawing.Size(1016, 10)
         Me.Panel2.TabIndex = 1
         '
         'dgListEmployees
@@ -85,62 +81,20 @@ Partial Class ucAccountsRegistered
         Me.dgListEmployees.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgListEmployees.ColumnHeadersHeight = 33
         Me.dgListEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.dgListEmployees.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.EmployeeNo, Me.LastName, Me.Firstname, Me.MiddleName, Me.Position, Me.EmployementStatus, Me.DateHired})
+        Me.dgListEmployees.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.AccountName, Me.Position, Me.Username})
         Me.dgListEmployees.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.dgListEmployees.DoubleBuffered = True
         Me.dgListEmployees.EnableHeadersVisualStyles = False
         Me.dgListEmployees.GridColor = System.Drawing.Color.White
         Me.dgListEmployees.HeaderBgColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.dgListEmployees.HeaderForeColor = System.Drawing.Color.White
-        Me.dgListEmployees.Location = New System.Drawing.Point(0, 10)
+        Me.dgListEmployees.Location = New System.Drawing.Point(0, 3)
         Me.dgListEmployees.Name = "dgListEmployees"
         Me.dgListEmployees.ReadOnly = True
         Me.dgListEmployees.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.dgListEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgListEmployees.Size = New System.Drawing.Size(876, 345)
+        Me.dgListEmployees.Size = New System.Drawing.Size(1016, 500)
         Me.dgListEmployees.TabIndex = 0
-        '
-        'EmployeeNo
-        '
-        Me.EmployeeNo.HeaderText = "Employee No."
-        Me.EmployeeNo.Name = "EmployeeNo"
-        Me.EmployeeNo.ReadOnly = True
-        '
-        'LastName
-        '
-        Me.LastName.HeaderText = "Last Name"
-        Me.LastName.Name = "LastName"
-        Me.LastName.ReadOnly = True
-        '
-        'Firstname
-        '
-        Me.Firstname.HeaderText = "First Name"
-        Me.Firstname.Name = "Firstname"
-        Me.Firstname.ReadOnly = True
-        '
-        'MiddleName
-        '
-        Me.MiddleName.HeaderText = "Middle Name"
-        Me.MiddleName.Name = "MiddleName"
-        Me.MiddleName.ReadOnly = True
-        '
-        'Position
-        '
-        Me.Position.HeaderText = "Position"
-        Me.Position.Name = "Position"
-        Me.Position.ReadOnly = True
-        '
-        'EmployementStatus
-        '
-        Me.EmployementStatus.HeaderText = "Status"
-        Me.EmployementStatus.Name = "EmployementStatus"
-        Me.EmployementStatus.ReadOnly = True
-        '
-        'DateHired
-        '
-        Me.DateHired.HeaderText = "Date Hired"
-        Me.DateHired.Name = "DateHired"
-        Me.DateHired.ReadOnly = True
         '
         'Label2
         '
@@ -159,7 +113,7 @@ Partial Class ucAccountsRegistered
         Me.Panel3.Controls.Add(Me.BunifuSeparator2)
         Me.Panel3.Controls.Add(Me.txtSearch)
         Me.Panel3.Controls.Add(Me.Label1)
-        Me.Panel3.Location = New System.Drawing.Point(425, 22)
+        Me.Panel3.Location = New System.Drawing.Point(552, 22)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(450, 36)
         Me.Panel3.TabIndex = 53
@@ -204,6 +158,24 @@ Partial Class ucAccountsRegistered
         Me.Label1.TabIndex = 33
         Me.Label1.Text = "Search Username"
         '
+        'AccountName
+        '
+        Me.AccountName.HeaderText = "Account Name"
+        Me.AccountName.Name = "AccountName"
+        Me.AccountName.ReadOnly = True
+        '
+        'Position
+        '
+        Me.Position.HeaderText = "Position"
+        Me.Position.Name = "Position"
+        Me.Position.ReadOnly = True
+        '
+        'Username
+        '
+        Me.Username.HeaderText = "Username"
+        Me.Username.Name = "Username"
+        Me.Username.ReadOnly = True
+        '
         'ucAccountsRegistered
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -213,7 +185,7 @@ Partial Class ucAccountsRegistered
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel3)
         Me.Name = "ucAccountsRegistered"
-        Me.Size = New System.Drawing.Size(876, 436)
+        Me.Size = New System.Drawing.Size(1016, 578)
         Me.Panel1.ResumeLayout(False)
         CType(Me.dgListEmployees, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
@@ -225,17 +197,13 @@ Partial Class ucAccountsRegistered
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents dgListEmployees As Bunifu.Framework.UI.BunifuCustomDataGrid
-    Friend WithEvents EmployeeNo As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents LastName As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents Firstname As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents MiddleName As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents Position As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents EmployementStatus As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents DateHired As System.Windows.Forms.DataGridViewButtonColumn
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents BunifuSeparator2 As Bunifu.Framework.UI.BunifuSeparator
     Friend WithEvents txtSearch As Bunifu.Framework.UI.BunifuMetroTextbox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents AccountName As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Position As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Username As System.Windows.Forms.DataGridViewTextBoxColumn
 
 End Class

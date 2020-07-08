@@ -22,9 +22,6 @@ Partial Class ucAccountInfo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.BunifuSeparator2 = New Bunifu.Framework.UI.BunifuSeparator()
-        Me.BunifuSeparator1 = New Bunifu.Framework.UI.BunifuSeparator()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.panelUserControlContainer = New System.Windows.Forms.Panel()
         Me.UcYourAccount1 = New EmploInfo.ucYourAccount()
         Me.UcAccountsRegistered1 = New EmploInfo.ucAccountsRegistered()
@@ -37,49 +34,15 @@ Partial Class ucAccountInfo
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'BunifuSeparator2
-        '
-        Me.BunifuSeparator2.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.BunifuSeparator2.LineThickness = 3
-        Me.BunifuSeparator2.Location = New System.Drawing.Point(151, 59)
-        Me.BunifuSeparator2.Name = "BunifuSeparator2"
-        Me.BunifuSeparator2.Size = New System.Drawing.Size(123, 10)
-        Me.BunifuSeparator2.TabIndex = 8
-        Me.BunifuSeparator2.Transparency = 255
-        Me.BunifuSeparator2.Vertical = False
-        '
-        'BunifuSeparator1
-        '
-        Me.BunifuSeparator1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.BunifuSeparator1.LineThickness = 3
-        Me.BunifuSeparator1.Location = New System.Drawing.Point(72, 59)
-        Me.BunifuSeparator1.Name = "BunifuSeparator1"
-        Me.BunifuSeparator1.Size = New System.Drawing.Size(85, 10)
-        Me.BunifuSeparator1.TabIndex = 7
-        Me.BunifuSeparator1.Transparency = 255
-        Me.BunifuSeparator1.Vertical = False
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Nunito", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(70, 42)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(206, 21)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "ACCOUNT INFORMATION"
-        '
         'panelUserControlContainer
         '
         Me.panelUserControlContainer.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(247, Byte), Integer))
         Me.panelUserControlContainer.Controls.Add(Me.UcYourAccount1)
         Me.panelUserControlContainer.Controls.Add(Me.UcAccountsRegistered1)
-        Me.panelUserControlContainer.Location = New System.Drawing.Point(71, 122)
+        Me.panelUserControlContainer.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.panelUserControlContainer.Location = New System.Drawing.Point(0, 42)
         Me.panelUserControlContainer.Name = "panelUserControlContainer"
-        Me.panelUserControlContainer.Size = New System.Drawing.Size(876, 436)
+        Me.panelUserControlContainer.Size = New System.Drawing.Size(1016, 578)
         Me.panelUserControlContainer.TabIndex = 20
         '
         'UcYourAccount1
@@ -88,7 +51,7 @@ Partial Class ucAccountInfo
         Me.UcYourAccount1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.UcYourAccount1.Location = New System.Drawing.Point(0, 0)
         Me.UcYourAccount1.Name = "UcYourAccount1"
-        Me.UcYourAccount1.Size = New System.Drawing.Size(876, 436)
+        Me.UcYourAccount1.Size = New System.Drawing.Size(1016, 578)
         Me.UcYourAccount1.TabIndex = 0
         '
         'UcAccountsRegistered1
@@ -97,7 +60,7 @@ Partial Class ucAccountInfo
         Me.UcAccountsRegistered1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.UcAccountsRegistered1.Location = New System.Drawing.Point(0, 0)
         Me.UcAccountsRegistered1.Name = "UcAccountsRegistered1"
-        Me.UcAccountsRegistered1.Size = New System.Drawing.Size(876, 436)
+        Me.UcAccountsRegistered1.Size = New System.Drawing.Size(1016, 578)
         Me.UcAccountsRegistered1.TabIndex = 1
         '
         'lineUserAccount
@@ -105,9 +68,9 @@ Partial Class ucAccountInfo
         Me.lineUserAccount.BackColor = System.Drawing.Color.Transparent
         Me.lineUserAccount.LineColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.lineUserAccount.LineThickness = 3
-        Me.lineUserAccount.Location = New System.Drawing.Point(438, 33)
+        Me.lineUserAccount.Location = New System.Drawing.Point(500, 33)
         Me.lineUserAccount.Name = "lineUserAccount"
-        Me.lineUserAccount.Size = New System.Drawing.Size(439, 10)
+        Me.lineUserAccount.Size = New System.Drawing.Size(518, 10)
         Me.lineUserAccount.TabIndex = 18
         Me.lineUserAccount.Transparency = 255
         Me.lineUserAccount.Vertical = False
@@ -118,9 +81,9 @@ Partial Class ucAccountInfo
         Me.lineEmployee.BackColor = System.Drawing.Color.Transparent
         Me.lineEmployee.LineColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.lineEmployee.LineThickness = 3
-        Me.lineEmployee.Location = New System.Drawing.Point(1, 33)
+        Me.lineEmployee.Location = New System.Drawing.Point(-18, 33)
         Me.lineEmployee.Name = "lineEmployee"
-        Me.lineEmployee.Size = New System.Drawing.Size(437, 10)
+        Me.lineEmployee.Size = New System.Drawing.Size(518, 10)
         Me.lineEmployee.TabIndex = 19
         Me.lineEmployee.Transparency = 255
         Me.lineEmployee.Vertical = False
@@ -135,9 +98,9 @@ Partial Class ucAccountInfo
         Me.btnYourAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnYourAccount.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnYourAccount.ForeColor = System.Drawing.Color.White
-        Me.btnYourAccount.Location = New System.Drawing.Point(1, 1)
+        Me.btnYourAccount.Location = New System.Drawing.Point(-18, 1)
         Me.btnYourAccount.Name = "btnYourAccount"
-        Me.btnYourAccount.Size = New System.Drawing.Size(437, 36)
+        Me.btnYourAccount.Size = New System.Drawing.Size(518, 36)
         Me.btnYourAccount.TabIndex = 17
         Me.btnYourAccount.Text = "Your Account"
         Me.btnYourAccount.UseVisualStyleBackColor = False
@@ -152,9 +115,9 @@ Partial Class ucAccountInfo
         Me.btnAccountsRegistered.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAccountsRegistered.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAccountsRegistered.ForeColor = System.Drawing.Color.White
-        Me.btnAccountsRegistered.Location = New System.Drawing.Point(438, 1)
+        Me.btnAccountsRegistered.Location = New System.Drawing.Point(500, 1)
         Me.btnAccountsRegistered.Name = "btnAccountsRegistered"
-        Me.btnAccountsRegistered.Size = New System.Drawing.Size(439, 36)
+        Me.btnAccountsRegistered.Size = New System.Drawing.Size(518, 36)
         Me.btnAccountsRegistered.TabIndex = 16
         Me.btnAccountsRegistered.Text = "Accounts Registered"
         Me.btnAccountsRegistered.UseVisualStyleBackColor = False
@@ -164,11 +127,11 @@ Partial Class ucAccountInfo
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.Panel1.Controls.Add(Me.btnAccountsRegistered)
         Me.Panel1.Controls.Add(Me.btnYourAccount)
-        Me.Panel1.Controls.Add(Me.lineUserAccount)
         Me.Panel1.Controls.Add(Me.lineEmployee)
-        Me.Panel1.Location = New System.Drawing.Point(71, 75)
+        Me.Panel1.Controls.Add(Me.lineUserAccount)
+        Me.Panel1.Location = New System.Drawing.Point(0, -1)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(876, 47)
+        Me.Panel1.Size = New System.Drawing.Size(1016, 76)
         Me.Panel1.TabIndex = 21
         '
         'ucAccountInfo
@@ -176,22 +139,15 @@ Partial Class ucAccountInfo
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.panelUserControlContainer)
-        Me.Controls.Add(Me.BunifuSeparator2)
-        Me.Controls.Add(Me.BunifuSeparator1)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Panel1)
         Me.Name = "ucAccountInfo"
         Me.Size = New System.Drawing.Size(1016, 620)
         Me.panelUserControlContainer.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents BunifuSeparator2 As Bunifu.Framework.UI.BunifuSeparator
-    Friend WithEvents BunifuSeparator1 As Bunifu.Framework.UI.BunifuSeparator
-    Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents panelUserControlContainer As System.Windows.Forms.Panel
     Friend WithEvents UcYourAccount1 As EmploInfo.ucYourAccount
     Friend WithEvents UcAccountsRegistered1 As EmploInfo.ucAccountsRegistered

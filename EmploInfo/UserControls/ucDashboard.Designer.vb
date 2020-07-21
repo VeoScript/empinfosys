@@ -59,8 +59,8 @@ Partial Class ucDashboard
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.BunifuSeparator3 = New Bunifu.Framework.UI.BunifuSeparator()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
+        Me.lblAccountName = New System.Windows.Forms.Label()
+        Me.lblPosition = New System.Windows.Forms.Label()
         Me.panelNoEmployee.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -140,7 +140,7 @@ Partial Class ucDashboard
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(236, 52)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "350"
+        Me.Label3.Text = "0"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label4
@@ -195,7 +195,7 @@ Partial Class ucDashboard
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(236, 52)
         Me.Label5.TabIndex = 4
-        Me.Label5.Text = "10"
+        Me.Label5.Text = "0"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label6
@@ -250,7 +250,7 @@ Partial Class ucDashboard
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(236, 52)
         Me.Label8.TabIndex = 4
-        Me.Label8.Text = "556"
+        Me.Label8.Text = "0"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label9
@@ -305,7 +305,7 @@ Partial Class ucDashboard
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(236, 52)
         Me.Label11.TabIndex = 4
-        Me.Label11.Text = "28"
+        Me.Label11.Text = "0"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label12
@@ -360,7 +360,7 @@ Partial Class ucDashboard
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(236, 52)
         Me.Label14.TabIndex = 4
-        Me.Label14.Text = "30"
+        Me.Label14.Text = "0"
         Me.Label14.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label15
@@ -415,7 +415,7 @@ Partial Class ucDashboard
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(236, 52)
         Me.Label17.TabIndex = 4
-        Me.Label17.Text = "1563"
+        Me.Label17.Text = "0"
         Me.Label17.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label18
@@ -478,27 +478,27 @@ Partial Class ucDashboard
         Me.BunifuSeparator3.Transparency = 255
         Me.BunifuSeparator3.Vertical = False
         '
-        'Label22
+        'lblAccountName
         '
-        Me.Label22.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label22.Location = New System.Drawing.Point(454, 43)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(437, 19)
-        Me.Label22.TabIndex = 4
-        Me.Label22.Text = "JEROME VILLARUEL"
-        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.lblAccountName.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAccountName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblAccountName.Location = New System.Drawing.Point(454, 43)
+        Me.lblAccountName.Name = "lblAccountName"
+        Me.lblAccountName.Size = New System.Drawing.Size(437, 19)
+        Me.lblAccountName.TabIndex = 4
+        Me.lblAccountName.Text = "ACCOUNT NAME"
+        Me.lblAccountName.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label23
+        'lblPosition
         '
-        Me.Label23.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label23.Location = New System.Drawing.Point(454, 57)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(437, 19)
-        Me.Label23.TabIndex = 4
-        Me.Label23.Text = "IT COORDINATOR"
-        Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.lblPosition.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPosition.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblPosition.Location = New System.Drawing.Point(454, 57)
+        Me.lblPosition.Name = "lblPosition"
+        Me.lblPosition.Size = New System.Drawing.Size(437, 19)
+        Me.lblPosition.TabIndex = 4
+        Me.lblPosition.Text = "POSITION"
+        Me.lblPosition.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ucDashboard
         '
@@ -514,11 +514,11 @@ Partial Class ucDashboard
         Me.Controls.Add(Me.BunifuSeparator3)
         Me.Controls.Add(Me.BunifuSeparator2)
         Me.Controls.Add(Me.BunifuSeparator1)
-        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.lblAccountName)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.lblPosition)
         Me.Name = "ucDashboard"
         Me.Size = New System.Drawing.Size(1016, 620)
         Me.panelNoEmployee.ResumeLayout(False)
@@ -579,7 +579,7 @@ Partial Class ucDashboard
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents BunifuSeparator3 As Bunifu.Framework.UI.BunifuSeparator
-    Friend WithEvents Label22 As System.Windows.Forms.Label
-    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents lblAccountName As System.Windows.Forms.Label
+    Friend WithEvents lblPosition As System.Windows.Forms.Label
 
 End Class

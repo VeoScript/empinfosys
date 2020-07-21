@@ -21,3 +21,4 @@ C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucRecords.resourc
 C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucAccountInfo.resources
 C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucYourAccount.resources
 C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.ucAccountsRegistered.resources
+C:\Users\jerom\Desktop\EmploInfo\EmploInfo\obj\Debug\EmploInfo.vbprojResolveAssemblyReference.cache

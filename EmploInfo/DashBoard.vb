@@ -1,4 +1,10 @@
-﻿Public Class DashBoard
+﻿Imports System.Data.SqlClient
+Public Class DashBoard
+
+    Dim con As New SqlConnection
+    Dim cmd As New SqlCommand
+    Dim reader As SqlDataReader
+    Dim query As String
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Application.Exit()

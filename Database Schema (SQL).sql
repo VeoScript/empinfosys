@@ -10,9 +10,6 @@ create table UserAccount(
 	password varchar(255) not null
 )
 
-select * from useraccount
-insert useraccount(position, name, username, password) VALUES('SYSTEM DEVELOPER', 'VEOSCRIPT', 'veo', 'veo123')
-
 create table RegisteredEmployee(
 	id int identity primary key not null,
 	idnumber varchar(100) unique not null,
@@ -40,3 +37,8 @@ create table Employee(
 	salarydetails varchar(100) not null,
 	datehired varchar(100) not null
 )
+
+select * from UserAccount
+select * from RegisteredEmployee
+select * from Employee
+insert useraccount(position, name, username, password) VALUES('SYSTEM DEVELOPER', 'VEOSCRIPT', 'veo', 'veo123')

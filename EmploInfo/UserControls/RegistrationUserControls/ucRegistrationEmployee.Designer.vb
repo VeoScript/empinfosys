@@ -36,7 +36,7 @@ Partial Class ucRegistrationEmployee
         Me.cmbGender = New Bunifu.Framework.UI.BunifuDropdown()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.cmdMaritalStatus = New Bunifu.Framework.UI.BunifuDropdown()
+        Me.cmbMaritalStatus = New Bunifu.Framework.UI.BunifuDropdown()
         Me.txtNoDependents = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -254,23 +254,23 @@ Partial Class ucRegistrationEmployee
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "Marital Status"
         '
-        'cmdMaritalStatus
+        'cmbMaritalStatus
         '
-        Me.cmdMaritalStatus.BackColor = System.Drawing.Color.Transparent
-        Me.cmdMaritalStatus.BorderRadius = 0
-        Me.cmdMaritalStatus.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.cmdMaritalStatus.DisabledColor = System.Drawing.Color.Gray
-        Me.cmdMaritalStatus.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdMaritalStatus.ForeColor = System.Drawing.Color.White
-        Me.cmdMaritalStatus.Items = New String() {"", "SINGLE", "MARRIED", "WIDOW"}
-        Me.cmdMaritalStatus.Location = New System.Drawing.Point(427, 174)
-        Me.cmdMaritalStatus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cmdMaritalStatus.Name = "cmdMaritalStatus"
-        Me.cmdMaritalStatus.NomalColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
-        Me.cmdMaritalStatus.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.cmdMaritalStatus.selectedIndex = -1
-        Me.cmdMaritalStatus.Size = New System.Drawing.Size(120, 33)
-        Me.cmdMaritalStatus.TabIndex = 6
+        Me.cmbMaritalStatus.BackColor = System.Drawing.Color.Transparent
+        Me.cmbMaritalStatus.BorderRadius = 0
+        Me.cmbMaritalStatus.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.cmbMaritalStatus.DisabledColor = System.Drawing.Color.Gray
+        Me.cmbMaritalStatus.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbMaritalStatus.ForeColor = System.Drawing.Color.White
+        Me.cmbMaritalStatus.Items = New String() {"", "SINGLE", "MARRIED", "WIDOW"}
+        Me.cmbMaritalStatus.Location = New System.Drawing.Point(427, 174)
+        Me.cmbMaritalStatus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbMaritalStatus.Name = "cmbMaritalStatus"
+        Me.cmbMaritalStatus.NomalColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.cmbMaritalStatus.onHoverColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(244, Byte), Integer))
+        Me.cmbMaritalStatus.selectedIndex = -1
+        Me.cmbMaritalStatus.Size = New System.Drawing.Size(120, 33)
+        Me.cmbMaritalStatus.TabIndex = 6
         '
         'txtNoDependents
         '
@@ -537,7 +537,7 @@ Partial Class ucRegistrationEmployee
         Me.Controls.Add(Me.txtEmailAddress)
         Me.Controls.Add(Me.txtHomeAddress)
         Me.Controls.Add(Me.txtBirthdate)
-        Me.Controls.Add(Me.cmdMaritalStatus)
+        Me.Controls.Add(Me.cmbMaritalStatus)
         Me.Controls.Add(Me.cmbGender)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnRegister)
@@ -582,7 +582,7 @@ Partial Class ucRegistrationEmployee
     Friend WithEvents cmbGender As Bunifu.Framework.UI.BunifuDropdown
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents cmdMaritalStatus As Bunifu.Framework.UI.BunifuDropdown
+    Friend WithEvents cmbMaritalStatus As Bunifu.Framework.UI.BunifuDropdown
     Friend WithEvents txtNoDependents As Bunifu.Framework.UI.BunifuMetroTextbox
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label

@@ -52,9 +52,9 @@ Partial Class ucEmployees
         Me.btnAddEmployee.ForeColor = System.Drawing.Color.White
         Me.btnAddEmployee.Location = New System.Drawing.Point(0, 0)
         Me.btnAddEmployee.Name = "btnAddEmployee"
-        Me.btnAddEmployee.Size = New System.Drawing.Size(518, 36)
+        Me.btnAddEmployee.Size = New System.Drawing.Size(373, 36)
         Me.btnAddEmployee.TabIndex = 16
-        Me.btnAddEmployee.Text = "Add Employee"
+        Me.btnAddEmployee.Text = "Add New Employee"
         Me.btnAddEmployee.UseVisualStyleBackColor = False
         '
         'btnListEmployees
@@ -66,9 +66,9 @@ Partial Class ucEmployees
         Me.btnListEmployees.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnListEmployees.Font = New System.Drawing.Font("Nunito", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnListEmployees.ForeColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(85, Byte), Integer))
-        Me.btnListEmployees.Location = New System.Drawing.Point(518, 0)
+        Me.btnListEmployees.Location = New System.Drawing.Point(373, 0)
         Me.btnListEmployees.Name = "btnListEmployees"
-        Me.btnListEmployees.Size = New System.Drawing.Size(502, 36)
+        Me.btnListEmployees.Size = New System.Drawing.Size(647, 36)
         Me.btnListEmployees.TabIndex = 17
         Me.btnListEmployees.Text = "List of Employees"
         Me.btnListEmployees.UseVisualStyleBackColor = False

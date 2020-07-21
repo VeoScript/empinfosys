@@ -6,6 +6,24 @@ Public Class ucAccountRegistration
     Dim reader As SqlDataReader
 
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
+        RegisterUserAccount()
+    End Sub
+
+    Private Sub txtName_KeyDown(sender As Object, e As KeyEventArgs) Handles txtUsername.KeyDown, txtRePassword.KeyDown, txtPassword.KeyDown, txtName.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            RegisterUserAccount()
+        End If
+    End Sub
+
+    Private Sub ClearInput()
+        cmbPosition.selectedIndex = 0
+        txtName.Text = ""
+        txtUsername.Text = ""
+        txtPassword.Text = ""
+        txtRePassword.Text = ""
+    End Sub
+
+    Private Sub RegisterUserAccount()
         If cmbPosition.selectedIndex = -1 Or cmbPosition.selectedIndex = 0 Then
             MsgBox("Kindly select a position first!", MsgBoxStyle.Exclamation, "EmpInfoSys")
         ElseIf txtName.Text = "" Then
@@ -48,13 +66,5 @@ Public Class ucAccountRegistration
                 MsgBox(ex.Message)
             End Try
         End If
-    End Sub
-
-    Private Sub ClearInput()
-        cmbPosition.selectedIndex = 0
-        txtName.Text = ""
-        txtUsername.Text = ""
-        txtPassword.Text = ""
-        txtRePassword.Text = ""
     End Sub
 End Class

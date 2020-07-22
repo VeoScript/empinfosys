@@ -4,7 +4,11 @@ Public Class ucRegistrationEmployee
     Dim con As New SqlConnection
     Dim cmd As New SqlCommand
     Dim reader As SqlDataReader
-    Dim insert, search As String
+    Dim insert, search, l_name, f_name As String
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        ClearInput()
+    End Sub
 
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
         RegisterEmployee()
@@ -13,7 +17,12 @@ Public Class ucRegistrationEmployee
     Private Sub txtEmployeeNo_KeyDown(sender As Object, e As KeyEventArgs) Handles txtTIN.KeyDown, txtSSS.KeyDown, txtPhilhealth.KeyDown, txtPagIbig.KeyDown, txtNoDependents.KeyDown, txtMiddlename.KeyDown, txtLastname.KeyDown, txtHomeAddress.KeyDown, txtFirstname.KeyDown, txtEmployeeNo.KeyDown, txtEmailAddress.KeyDown, txtContactNo.KeyDown, txtBirthdate.KeyDown
         If e.KeyCode = Keys.Enter Then
             RegisterEmployee()
+            LoadLastEmployeeNo()
         End If
+    End Sub
+
+    Private Sub ucRegistrationEmployee_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LoadLastEmployeeNo()
     End Sub
 
     Private Sub ClearInput()
@@ -35,6 +44,32 @@ Public Class ucRegistrationEmployee
         txtEmployeeNo.Focus()
     End Sub
 
+    'Para ni sa pag display sa last Employee Number sa Employee Registration Page
+    Private Sub LoadLastEmployeeNo()
+        Try
+            con = New SqlConnection
+            con.ConnectionString = ConString()
+
+            con.Open()
+            search = "SELECT TOP 1 idnumber, lastname, firstname FROM RegisteredEmployee ORDER BY id DESC"
+            cmd = New SqlCommand(search, con)
+            reader = cmd.ExecuteReader
+            If reader.HasRows Then
+                reader.Read()
+                lblLastNo.Text = reader("idnumber").ToString
+                l_name = reader("lastname").ToString
+                f_name = reader("firstname").ToString
+                lblName.Text = l_name + ", " + f_name
+                reader.Close()
+            End If
+            con.Close()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+    'End
+
+    'Para ni sa pag Register ng Employee
     Private Sub RegisterEmployee()
         If txtEmployeeNo.Text = "" Then
             MsgBox("Kindly input Employee Number first!", MsgBoxStyle.Exclamation, "EmpInfoSys")
@@ -92,4 +127,5 @@ Public Class ucRegistrationEmployee
             End Try
         End If
     End Sub
+    'End
 End Class

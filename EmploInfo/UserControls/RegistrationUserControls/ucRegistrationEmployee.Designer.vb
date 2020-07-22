@@ -55,6 +55,9 @@ Partial Class ucRegistrationEmployee
         Me.Label15 = New System.Windows.Forms.Label()
         Me.txtTIN = New Bunifu.Framework.UI.BunifuMetroTextbox()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.lblLastNo = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.lblName = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtLastname
@@ -190,7 +193,7 @@ Partial Class ucRegistrationEmployee
         Me.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegister.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.ForeColor = System.Drawing.Color.White
-        Me.btnRegister.Location = New System.Drawing.Point(100, 389)
+        Me.btnRegister.Location = New System.Drawing.Point(700, 386)
         Me.btnRegister.Name = "btnRegister"
         Me.btnRegister.Size = New System.Drawing.Size(114, 30)
         Me.btnRegister.TabIndex = 16
@@ -207,7 +210,7 @@ Partial Class ucRegistrationEmployee
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.Color.White
-        Me.btnCancel.Location = New System.Drawing.Point(215, 389)
+        Me.btnCancel.Location = New System.Drawing.Point(815, 386)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(109, 30)
         Me.btnCancel.TabIndex = 17
@@ -524,6 +527,39 @@ Partial Class ucRegistrationEmployee
         Me.Label16.TabIndex = 12
         Me.Label16.Text = "TIN"
         '
+        'lblLastNo
+        '
+        Me.lblLastNo.Font = New System.Drawing.Font("Nunito", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLastNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(28, Byte), Integer))
+        Me.lblLastNo.Location = New System.Drawing.Point(97, 386)
+        Me.lblLastNo.Name = "lblLastNo"
+        Me.lblLastNo.Size = New System.Drawing.Size(313, 16)
+        Me.lblLastNo.TabIndex = 12
+        Me.lblLastNo.Text = "LastNo"
+        Me.lblLastNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Nunito", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.Label17.Location = New System.Drawing.Point(98, 424)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(182, 15)
+        Me.Label17.TabIndex = 19
+        Me.Label17.Text = "Last Registered Employee Indicator"
+        '
+        'lblName
+        '
+        Me.lblName.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(77, Byte), Integer), CType(CType(28, Byte), Integer))
+        Me.lblName.Location = New System.Drawing.Point(98, 408)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(382, 16)
+        Me.lblName.TabIndex = 12
+        Me.lblName.Text = "Name"
+        Me.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'ucRegistrationEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -531,6 +567,7 @@ Partial Class ucRegistrationEmployee
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(247, Byte), Integer))
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtContactNo)
@@ -551,6 +588,8 @@ Partial Class ucRegistrationEmployee
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.lblName)
+        Me.Controls.Add(Me.lblLastNo)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtTIN)
@@ -601,5 +640,8 @@ Partial Class ucRegistrationEmployee
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents txtTIN As Bunifu.Framework.UI.BunifuMetroTextbox
     Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents lblLastNo As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents lblName As System.Windows.Forms.Label
 
 End Class

@@ -22,19 +22,12 @@ Partial Class ucListEmployee
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.dgListEmployees = New Bunifu.Framework.UI.BunifuCustomDataGrid()
-        Me.EmployeeNo = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.LastName = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.Firstname = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.MiddleName = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.Position = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.EmployementStatus = New System.Windows.Forms.DataGridViewButtonColumn()
-        Me.DateHired = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.BunifuSeparator2 = New Bunifu.Framework.UI.BunifuSeparator()
         Me.txtSearch = New Bunifu.Framework.UI.BunifuMetroTextbox()
@@ -78,25 +71,24 @@ Partial Class ucListEmployee
         '
         Me.dgListEmployees.AllowUserToAddRows = False
         Me.dgListEmployees.AllowUserToDeleteRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.dgListEmployees.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.dgListEmployees.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.dgListEmployees.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgListEmployees.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.dgListEmployees.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(247, Byte), Integer))
         Me.dgListEmployees.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dgListEmployees.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.dgListEmployees.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgListEmployees.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgListEmployees.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgListEmployees.ColumnHeadersHeight = 33
         Me.dgListEmployees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.dgListEmployees.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.EmployeeNo, Me.LastName, Me.Firstname, Me.MiddleName, Me.Position, Me.EmployementStatus, Me.DateHired})
         Me.dgListEmployees.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.dgListEmployees.DoubleBuffered = True
         Me.dgListEmployees.EnableHeadersVisualStyles = False
@@ -110,48 +102,6 @@ Partial Class ucListEmployee
         Me.dgListEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgListEmployees.Size = New System.Drawing.Size(1016, 479)
         Me.dgListEmployees.TabIndex = 0
-        '
-        'EmployeeNo
-        '
-        Me.EmployeeNo.HeaderText = "Employee No."
-        Me.EmployeeNo.Name = "EmployeeNo"
-        Me.EmployeeNo.ReadOnly = True
-        '
-        'LastName
-        '
-        Me.LastName.HeaderText = "Last Name"
-        Me.LastName.Name = "LastName"
-        Me.LastName.ReadOnly = True
-        '
-        'Firstname
-        '
-        Me.Firstname.HeaderText = "First Name"
-        Me.Firstname.Name = "Firstname"
-        Me.Firstname.ReadOnly = True
-        '
-        'MiddleName
-        '
-        Me.MiddleName.HeaderText = "Middle Name"
-        Me.MiddleName.Name = "MiddleName"
-        Me.MiddleName.ReadOnly = True
-        '
-        'Position
-        '
-        Me.Position.HeaderText = "Position"
-        Me.Position.Name = "Position"
-        Me.Position.ReadOnly = True
-        '
-        'EmployementStatus
-        '
-        Me.EmployementStatus.HeaderText = "Status"
-        Me.EmployementStatus.Name = "EmployementStatus"
-        Me.EmployementStatus.ReadOnly = True
-        '
-        'DateHired
-        '
-        Me.DateHired.HeaderText = "Date Hired"
-        Me.DateHired.Name = "DateHired"
-        Me.DateHired.ReadOnly = True
         '
         'Panel3
         '
@@ -226,13 +176,6 @@ Partial Class ucListEmployee
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents dgListEmployees As Bunifu.Framework.UI.BunifuCustomDataGrid
-    Friend WithEvents EmployeeNo As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents LastName As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents Firstname As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents MiddleName As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents Position As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents EmployementStatus As System.Windows.Forms.DataGridViewButtonColumn
-    Friend WithEvents DateHired As System.Windows.Forms.DataGridViewButtonColumn
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents BunifuSeparator2 As Bunifu.Framework.UI.BunifuSeparator
     Friend WithEvents txtSearch As Bunifu.Framework.UI.BunifuMetroTextbox

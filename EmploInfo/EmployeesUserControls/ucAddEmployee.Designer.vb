@@ -53,6 +53,7 @@ Partial Class ucAddEmployee
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.lblEmploymentStatus = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -361,6 +362,7 @@ Partial Class ucAddEmployee
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(234, Byte), Integer), CType(CType(235, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.Panel2.Controls.Add(Me.txtGender)
         Me.Panel2.Controls.Add(Me.txtIdNumber)
+        Me.Panel2.Controls.Add(Me.lblEmploymentStatus)
         Me.Panel2.Controls.Add(Me.Label11)
         Me.Panel2.Controls.Add(Me.txtLastname)
         Me.Panel2.Controls.Add(Me.Label10)
@@ -465,6 +467,16 @@ Partial Class ucAddEmployee
         Me.ToolTip1.SetToolTip(Me.btnUpdate, "For Promotions Update Only.")
         Me.btnUpdate.UseVisualStyleBackColor = False
         '
+        'lblEmploymentStatus
+        '
+        Me.lblEmploymentStatus.Font = New System.Drawing.Font("Nunito", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEmploymentStatus.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(103, Byte), Integer), CType(CType(190, Byte), Integer))
+        Me.lblEmploymentStatus.Location = New System.Drawing.Point(203, 66)
+        Me.lblEmploymentStatus.Name = "lblEmploymentStatus"
+        Me.lblEmploymentStatus.Size = New System.Drawing.Size(150, 16)
+        Me.lblEmploymentStatus.TabIndex = 36
+        Me.lblEmploymentStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'ucAddEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -524,5 +536,6 @@ Partial Class ucAddEmployee
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
     Friend WithEvents btnUpdate As System.Windows.Forms.Button
+    Friend WithEvents lblEmploymentStatus As System.Windows.Forms.Label
 
 End Class

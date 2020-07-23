@@ -5,6 +5,7 @@ Public Class DashBoard
     Dim cmd As New SqlCommand
     Dim reader As SqlDataReader
     Dim query As String
+    Dim dashboardcount As New DashboardCount
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Application.Exit()
@@ -21,6 +22,14 @@ Public Class DashBoard
 
     Private Sub DashBoard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnDashBoard.BackColor = Color.FromArgb(56, 151, 244)
+
+        'Para ni sa pag Count sa tanang Empleyado (Regular, Probationary, Union, Non-Union, ug Agency)
+        dashboardcount.CountRegularEmployees()
+        dashboardcount.CountUnion()
+        dashboardcount.CountNonUnion()
+        dashboardcount.CountProbationary()
+        dashboardcount.CountAgency()
+        dashboardcount.CountTotalEmployees()
     End Sub
 
     Private Sub btnDashBoard_Click(sender As Object, e As EventArgs) Handles btnDashBoard.Click
@@ -38,6 +47,9 @@ Public Class DashBoard
         btnRecords.BackColor = Color.FromArgb(24, 65, 120)
         btnAccountInfo.BackColor = Color.FromArgb(24, 65, 120)
         btnSettings.BackColor = Color.FromArgb(24, 65, 120)
+
+        'Sa Record na Page pag Visible False sa tanang controls
+        UcRecords1.VisibleFalse()
     End Sub
 
     Private Sub btnRegistration_Click(sender As Object, e As EventArgs) Handles btnRegistration.Click
@@ -55,6 +67,9 @@ Public Class DashBoard
         btnRecords.BackColor = Color.FromArgb(24, 65, 120)
         btnAccountInfo.BackColor = Color.FromArgb(24, 65, 120)
         btnSettings.BackColor = Color.FromArgb(24, 65, 120)
+
+        'Sa Record na Page pag Visible False sa tanang controls
+        UcRecords1.VisibleFalse()
     End Sub
 
     Private Sub btnEmployees_Click(sender As Object, e As EventArgs) Handles btnEmployees.Click
@@ -72,6 +87,9 @@ Public Class DashBoard
         btnRecords.BackColor = Color.FromArgb(24, 65, 120)
         btnAccountInfo.BackColor = Color.FromArgb(24, 65, 120)
         btnSettings.BackColor = Color.FromArgb(24, 65, 120)
+
+        'Sa Record na Page pag Visible False sa tanang controls
+        UcRecords1.VisibleFalse()
     End Sub
 
     Private Sub btnRecords_Click(sender As Object, e As EventArgs) Handles btnRecords.Click
@@ -89,6 +107,9 @@ Public Class DashBoard
         btnRecords.BackColor = Color.FromArgb(56, 151, 244)
         btnAccountInfo.BackColor = Color.FromArgb(24, 65, 120)
         btnSettings.BackColor = Color.FromArgb(24, 65, 120)
+
+        'Sa Record na Page pag Visible False sa tanang controls
+        UcRecords1.VisibleFalse()
     End Sub
 
     Private Sub btnAccountInfo_Click(sender As Object, e As EventArgs) Handles btnAccountInfo.Click
@@ -106,6 +127,9 @@ Public Class DashBoard
         btnRecords.BackColor = Color.FromArgb(24, 65, 120)
         btnAccountInfo.BackColor = Color.FromArgb(56, 151, 244)
         btnSettings.BackColor = Color.FromArgb(24, 65, 120)
+
+        'Sa Record na Page pag Visible False sa tanang controls
+        UcRecords1.VisibleFalse()
     End Sub
 
     Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
@@ -116,5 +140,8 @@ Public Class DashBoard
         btnRecords.BackColor = Color.FromArgb(24, 65, 120)
         btnAccountInfo.BackColor = Color.FromArgb(24, 65, 120)
         btnSettings.BackColor = Color.FromArgb(56, 151, 244)
+
+        'Sa Record na Page pag Visible False sa tanang controls
+        UcRecords1.VisibleFalse()
     End Sub
 End Class

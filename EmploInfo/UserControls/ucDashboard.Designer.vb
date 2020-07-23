@@ -28,32 +28,32 @@ Partial Class ucDashboard
         Me.BunifuSeparator2 = New Bunifu.Framework.UI.BunifuSeparator()
         Me.panelNoEmployee = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lblCountRegularEmployees = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblCountProbationary = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.lblCountAgency = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lblCountUnion = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.lblCountNonUnion = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.Label17 = New System.Windows.Forms.Label()
+        Me.lblCountTotalEmployees = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
@@ -114,7 +114,7 @@ Partial Class ucDashboard
         '
         Me.panelNoEmployee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.panelNoEmployee.Controls.Add(Me.PictureBox1)
-        Me.panelNoEmployee.Controls.Add(Me.Label3)
+        Me.panelNoEmployee.Controls.Add(Me.lblCountRegularEmployees)
         Me.panelNoEmployee.Controls.Add(Me.Label4)
         Me.panelNoEmployee.Controls.Add(Me.Label1)
         Me.panelNoEmployee.Location = New System.Drawing.Point(110, 120)
@@ -132,16 +132,16 @@ Partial Class ucDashboard
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
-        'Label3
+        'lblCountRegularEmployees
         '
-        Me.Label3.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(0, 46)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(236, 52)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "0"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblCountRegularEmployees.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountRegularEmployees.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblCountRegularEmployees.Location = New System.Drawing.Point(0, 46)
+        Me.lblCountRegularEmployees.Name = "lblCountRegularEmployees"
+        Me.lblCountRegularEmployees.Size = New System.Drawing.Size(236, 52)
+        Me.lblCountRegularEmployees.TabIndex = 4
+        Me.lblCountRegularEmployees.Text = "0"
+        Me.lblCountRegularEmployees.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label4
         '
@@ -169,7 +169,7 @@ Partial Class ucDashboard
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.PictureBox2)
-        Me.Panel1.Controls.Add(Me.Label5)
+        Me.Panel1.Controls.Add(Me.lblCountProbationary)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Location = New System.Drawing.Point(382, 120)
@@ -187,16 +187,16 @@ Partial Class ucDashboard
         Me.PictureBox2.TabIndex = 5
         Me.PictureBox2.TabStop = False
         '
-        'Label5
+        'lblCountProbationary
         '
-        Me.Label5.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(0, 46)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(236, 52)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "0"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblCountProbationary.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountProbationary.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblCountProbationary.Location = New System.Drawing.Point(0, 46)
+        Me.lblCountProbationary.Name = "lblCountProbationary"
+        Me.lblCountProbationary.Size = New System.Drawing.Size(236, 52)
+        Me.lblCountProbationary.TabIndex = 4
+        Me.lblCountProbationary.Text = "0"
+        Me.lblCountProbationary.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label6
         '
@@ -224,7 +224,7 @@ Partial Class ucDashboard
         '
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel2.Controls.Add(Me.PictureBox3)
-        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.lblCountAgency)
         Me.Panel2.Controls.Add(Me.Label9)
         Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Location = New System.Drawing.Point(655, 120)
@@ -242,16 +242,16 @@ Partial Class ucDashboard
         Me.PictureBox3.TabIndex = 5
         Me.PictureBox3.TabStop = False
         '
-        'Label8
+        'lblCountAgency
         '
-        Me.Label8.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(0, 46)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(236, 52)
-        Me.Label8.TabIndex = 4
-        Me.Label8.Text = "0"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblCountAgency.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountAgency.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblCountAgency.Location = New System.Drawing.Point(0, 46)
+        Me.lblCountAgency.Name = "lblCountAgency"
+        Me.lblCountAgency.Size = New System.Drawing.Size(236, 52)
+        Me.lblCountAgency.TabIndex = 4
+        Me.lblCountAgency.Text = "0"
+        Me.lblCountAgency.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label9
         '
@@ -279,7 +279,7 @@ Partial Class ucDashboard
         '
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel3.Controls.Add(Me.PictureBox4)
-        Me.Panel3.Controls.Add(Me.Label11)
+        Me.Panel3.Controls.Add(Me.lblCountUnion)
         Me.Panel3.Controls.Add(Me.Label12)
         Me.Panel3.Controls.Add(Me.Label13)
         Me.Panel3.Location = New System.Drawing.Point(110, 280)
@@ -297,16 +297,16 @@ Partial Class ucDashboard
         Me.PictureBox4.TabIndex = 5
         Me.PictureBox4.TabStop = False
         '
-        'Label11
+        'lblCountUnion
         '
-        Me.Label11.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(-1, 46)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(236, 52)
-        Me.Label11.TabIndex = 4
-        Me.Label11.Text = "0"
-        Me.Label11.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblCountUnion.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountUnion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblCountUnion.Location = New System.Drawing.Point(-1, 46)
+        Me.lblCountUnion.Name = "lblCountUnion"
+        Me.lblCountUnion.Size = New System.Drawing.Size(236, 52)
+        Me.lblCountUnion.TabIndex = 4
+        Me.lblCountUnion.Text = "0"
+        Me.lblCountUnion.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label12
         '
@@ -334,7 +334,7 @@ Partial Class ucDashboard
         '
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel4.Controls.Add(Me.PictureBox5)
-        Me.Panel4.Controls.Add(Me.Label14)
+        Me.Panel4.Controls.Add(Me.lblCountNonUnion)
         Me.Panel4.Controls.Add(Me.Label15)
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Location = New System.Drawing.Point(382, 279)
@@ -352,16 +352,16 @@ Partial Class ucDashboard
         Me.PictureBox5.TabIndex = 5
         Me.PictureBox5.TabStop = False
         '
-        'Label14
+        'lblCountNonUnion
         '
-        Me.Label14.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label14.Location = New System.Drawing.Point(0, 46)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(236, 52)
-        Me.Label14.TabIndex = 4
-        Me.Label14.Text = "0"
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblCountNonUnion.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountNonUnion.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblCountNonUnion.Location = New System.Drawing.Point(0, 46)
+        Me.lblCountNonUnion.Name = "lblCountNonUnion"
+        Me.lblCountNonUnion.Size = New System.Drawing.Size(236, 52)
+        Me.lblCountNonUnion.TabIndex = 4
+        Me.lblCountNonUnion.Text = "0"
+        Me.lblCountNonUnion.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label15
         '
@@ -389,7 +389,7 @@ Partial Class ucDashboard
         '
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel5.Controls.Add(Me.PictureBox6)
-        Me.Panel5.Controls.Add(Me.Label17)
+        Me.Panel5.Controls.Add(Me.lblCountTotalEmployees)
         Me.Panel5.Controls.Add(Me.Label18)
         Me.Panel5.Controls.Add(Me.Label19)
         Me.Panel5.Location = New System.Drawing.Point(654, 279)
@@ -407,16 +407,16 @@ Partial Class ucDashboard
         Me.PictureBox6.TabIndex = 5
         Me.PictureBox6.TabStop = False
         '
-        'Label17
+        'lblCountTotalEmployees
         '
-        Me.Label17.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.Label17.Location = New System.Drawing.Point(0, 46)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(236, 52)
-        Me.Label17.TabIndex = 4
-        Me.Label17.Text = "0"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblCountTotalEmployees.Font = New System.Drawing.Font("Righteous", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCountTotalEmployees.ForeColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.lblCountTotalEmployees.Location = New System.Drawing.Point(0, 46)
+        Me.lblCountTotalEmployees.Name = "lblCountTotalEmployees"
+        Me.lblCountTotalEmployees.Size = New System.Drawing.Size(236, 52)
+        Me.lblCountTotalEmployees.TabIndex = 4
+        Me.lblCountTotalEmployees.Text = "0"
+        Me.lblCountTotalEmployees.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label18
         '
@@ -547,33 +547,33 @@ Partial Class ucDashboard
     Friend WithEvents BunifuSeparator1 As Bunifu.Framework.UI.BunifuSeparator
     Friend WithEvents BunifuSeparator2 As Bunifu.Framework.UI.BunifuSeparator
     Friend WithEvents panelNoEmployee As System.Windows.Forms.Panel
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lblCountRegularEmployees As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents lblCountProbationary As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents lblCountAgency As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents lblCountUnion As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents lblCountNonUnion As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents lblCountTotalEmployees As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents Label20 As System.Windows.Forms.Label
